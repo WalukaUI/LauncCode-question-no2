@@ -100,7 +100,7 @@ if(qq >= 1){
 }
 //call function here---------------------------
 
-balance(2);
+balance(2.11);
 
 
 console.log(["qt","dim","nkl","peni"])
