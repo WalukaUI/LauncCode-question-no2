@@ -18,7 +18,7 @@ if(quarters >= 1){
         var balance=balance-(10*dime)
         array.push(dime)
         let nikles=balance/5
-        nn
+        
         if(nikles >= 1){
             let nikle=parseInt(nikles)
             var balance=balanceToPay-(5*nikle)
@@ -101,7 +101,7 @@ if(quarters >= 1){
 }
 //call function here---------------------------
 
-balance(2.11);
+balance(2.18);
 
 
 console.log(["qt","dim","nkl","peni"])
