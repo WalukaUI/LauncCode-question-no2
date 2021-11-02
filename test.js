@@ -3,9 +3,9 @@
 
 let array=[]
 
-function balance(bal){
-var initialBalance=bal*100
-var balance=bal*100
+function balance(balanceToPay){
+var initialBalance=balanceToPay*100
+var balance=balanceToPay*100
 let qq=balance/25
 
 if(qq >= 1){
@@ -20,7 +20,7 @@ if(qq >= 1){
         let nn=balance/5
         if(nn >= 1){
             let nikle=parseInt(nn)
-            var balance=bal-(5*nikle)
+            var balance=balanceToPay-(5*nikle)
             array.push(nikle)
             let pp=initialBalance-((25 *array[0])+(10 *array[1])+(5 *array[2]))
             let pennies=parseInt(pp)
@@ -39,7 +39,7 @@ if(qq >= 1){
         let nn=balance/5
         if(nn >= 1){
             let nikle=parseInt(nn)
-            var balance=bal-(5*nikle)
+            var balance=balanceToPay-(5*nikle)
             array.push(nikle)
             let pp=initialBalance-((25 *array[0])+(10 *array[1])+(5 *array[2]))
             let pennies=parseInt(pp)
@@ -64,7 +64,7 @@ if(qq >= 1){
         let nn=balance/5
         if(nn >= 1){
             let nikle=parseInt(nn)
-            var balance=bal-(5*nikle)
+            var balance=balanceToPay-(5*nikle)
             array.push(nikle)
             let pp=initialBalance-((25 *array[0])+(10 *array[1])+(5 *array[2]))
             let pennies=parseInt(pp)
@@ -83,7 +83,7 @@ if(qq >= 1){
         let nn=balance/5
         if(nn >= 1){
             let nikle=parseInt(nn)
-            var balance=bal-(5*nikle)
+            var balance=balanceToPay-(5*nikle)
             array.push(nikle)
             let pp=initialBalance-((25 *array[0])+(10 *array[1])+(5 *array[2]))
             let pennies=parseInt(pp)
