@@ -6,94 +6,95 @@ let array=[]
 function balance(balanceToPay){
 var initialBalance=balanceToPay*100
 var balance=balanceToPay*100
-let qq=balance/25
+let quarters=balance/25
 
-if(qq >= 1){
-  let quart=parseInt(qq)
+if(quarters >= 1){
+  let quart=parseInt(quarters)
   var balance=balance-(25*quart)
   array.push(quart)
-  let dd=balance/10
-    if(dd >= 1){
-        let dime=parseInt(dd)
+  let dimes=balance/10
+    if(dimes >= 1){
+        let dime=parseInt(dimes)
         var balance=balance-(10*dime)
         array.push(dime)
-        let nn=balance/5
-        if(nn >= 1){
-            let nikle=parseInt(nn)
+        let nikles=balance/5
+        nn
+        if(nikles >= 1){
+            let nikle=parseInt(nikles)
             var balance=balanceToPay-(5*nikle)
             array.push(nikle)
-            let pp=initialBalance-((25 *array[0])+(10 *array[1])+(5 *array[2]))
-            let pennies=parseInt(pp)
-            array.push(pennies);
+            let pennies=initialBalance-((25 *array[0])+(10 *array[1])+(5 *array[2]))
+            let pennie=parseInt(pennies)
+            array.push(pennie);
         }
         else{
             array.push(0)
-            let pp=initialBalance-((25 *array[0])+(10 *array[1]))
-            let pennies=parseInt(pp)
-            array.push(pennies)
+            let pennies=initialBalance-((25 *array[0])+(10 *array[1]))
+            let pennie=parseInt(pennies)
+            array.push(pennie)
         }
     }else{
-        let dime=parseInt(dd)
+        let dime=parseInt(dimes)
         var balance=balance-(10*dime)
         array.push(dime)
-        let nn=balance/5
-        if(nn >= 1){
-            let nikle=parseInt(nn)
+        let nikles=balance/5
+        if(nikles >= 1){
+            let nikle=parseInt(nikles)
             var balance=balanceToPay-(5*nikle)
             array.push(nikle)
-            let pp=initialBalance-((25 *array[0])+(10 *array[1])+(5 *array[2]))
-            let pennies=parseInt(pp)
-            array.push(pennies);
+            let pennies=initialBalance-((25 *array[0])+(10 *array[1])+(5 *array[2]))
+            let pennie=parseInt(pennies)
+            array.push(pennie);
         }
         else{
             array.push(0)
-            let pp=initialBalance-((25 *array[0])+(10 *array[1]))
-            let pennies=parseInt(pp)
-            array.push(pennies)
+            let pennies=initialBalance-((25 *array[0])+(10 *array[1]))
+            let pennie=parseInt(pennies)
+            array.push(pennie)
         }
 
     }
 }else{
     array.push(0)
-    let dd=balance/10
+    let dimes=balance/10
 
-    if(dd >= 1){
-        let dime=parseInt(dd)
+    if(dimes >= 1){
+        let dime=parseInt(dimes)
         var balance=balance-(10*dime)
         array.push(dime)
-        let nn=balance/5
-        if(nn >= 1){
-            let nikle=parseInt(nn)
+        let nikles=balance/5
+        if(nikles >= 1){
+            let nikle=parseInt(nikles)
             var balance=balanceToPay-(5*nikle)
             array.push(nikle)
-            let pp=initialBalance-((25 *array[0])+(10 *array[1])+(5 *array[2]))
-            let pennies=parseInt(pp)
-            array.push(pennies);
+            let pennies=initialBalance-((25 *array[0])+(10 *array[1])+(5 *array[2]))
+            let pennie=parseInt(pennies)
+            array.push(pennie);
         }
         else{
             array.push(0)
-            let pp=initialBalance-((25 *array[0])+(10 *array[1]))
-            let pennies=parseInt(pp)
-            array.push(pennies)
+            let pennies=initialBalance-((25 *array[0])+(10 *array[1]))
+            let pennie=parseInt(pennies)
+            array.push(pennie)
         }
     }else{
-        let dime=parseInt(dd)
+        let dime=parseInt(dimes)
         var balance=balance-(10*dime)
         array.push(dime)
-        let nn=balance/5
-        if(nn >= 1){
-            let nikle=parseInt(nn)
+        let nikles=balance/5
+        if(nikles >= 1){
+            let nikle=parseInt(nikles)
             var balance=balanceToPay-(5*nikle)
             array.push(nikle)
-            let pp=initialBalance-((25 *array[0])+(10 *array[1])+(5 *array[2]))
-            let pennies=parseInt(pp)
-            array.push(pennies);
+            let pennies=initialBalance-((25 *array[0])+(10 *array[1])+(5 *array[2]))
+            let pennie=parseInt(pennies)
+            array.push(pennie);
         }
         else{
             array.push(0)
-            let pp=initialBalance-((25 *array[0])+(10 *array[1]))
-            let pennies=parseInt(pp)
-            array.push(pennies)
+            let pennies=initialBalance-((25 *array[0])+(10 *array[1]))
+            let pennie=parseInt(pennies)
+            array.push(pennie)
         }
     }
   }
