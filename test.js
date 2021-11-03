@@ -4,7 +4,8 @@
 let array=[]
 
 function balance(balanceToPay){
-var initialBalance=balanceToPay*100
+var balanceBy100=balanceToPay*100
+const initialBalance=parseInt(balanceBy100)
 var balance=balanceToPay*100
 let quarters=balance/25
 
@@ -20,6 +21,7 @@ if(quarters >= 1){
         let nikles=balance/5
         
         if(nikles >= 1){
+            console.log("lll");
             let nikle=parseInt(nikles)
             var balance=balanceToPay-(5*nikle)
             array.push(nikle)
@@ -101,7 +103,7 @@ if(quarters >= 1){
 }
 //call function here---------------------------
 
-balance(2.18);
+balance(1.01);
 
 
 console.log(["qt","dim","nkl","peni"])
